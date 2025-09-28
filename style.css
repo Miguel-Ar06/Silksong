@@ -47,3 +47,13 @@ h3{
 .critica {
     text-align: end;
 }
+.blasones{
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    margin-top: 20px;
+}
+div .blasones img{
+    width: auto;
+    height: 15%;
+}
