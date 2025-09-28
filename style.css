@@ -43,3 +43,14 @@ h3{
     color: white;
     font-family: 'Trajan';
 }
+
+.blasones{
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    margin-top: 20px;
+}
+div .blasones img{
+    width: auto;
+    height: 15%;
+}
