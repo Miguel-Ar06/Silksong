@@ -23,7 +23,8 @@ body{
 }
 
 .borde-borroso {
-    box-shadow: inset 0px -40px 40px -10px #111111;
+    mask-image: linear-gradient(to bottom, black 70%, rgba(0,0,0,0.5) 80%, transparent 100%);
+    -webkit-mask-image: linear-gradient(to bottom, black 70%, rgba(0,0,0,0.5) 80%, transparent 100%);
 }
 
 header{
@@ -33,6 +34,8 @@ header{
 .silksong{
     width: 100%;
     height: auto;
+    display: block;
+    position: relative;
 }
 
 .margen{
