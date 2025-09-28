@@ -6,9 +6,20 @@ body{
     
 }
 
+@font-face {
+    font-family: 'Trajan';
+    src: url(/media/TrajanPro-Regular.ttf);
+}
+
+@font-face {
+    font-family: 'Perpetua';
+    src: url(/media/perpetua.ttf);
+}
 .Texto_Generico{
     text-align: justify;
     color: white;
+    font-family: 'Perpetua';
+    font-size: 2rem;
 }
 
 header{
@@ -20,10 +31,9 @@ header{
     height: auto;
 }
 
-.Section1{
+.margen{
     margin: 15px 40px;
     padding: 15px;
-    border-radius: 10px;
 }
 
 h3{
@@ -31,4 +41,5 @@ h3{
     font-size: 30px;
     margin: 0;
     color: white;
+    font-family: 'Trajan';
 }
